@@ -6,7 +6,7 @@ import os
 from gtts import gTTS
 from PIL import Image
 
-st.title("Interfases Multimodales.")
+st.title("Personajes de Star Wars")
 image = Image.open('babyyoda.jpg')
 
 st.image(image, width=200)
@@ -17,12 +17,10 @@ try:
 except:
     pass
 
-st.subheader("Texto a audio.")
-st.write('Las interfaces de texto a audio son fundamentales en las interfaces multimodales ya que permiten '  
-         'una comunicación más accesible y natural, facilitando la inclusión de personas con discapacidades ' 
-         ' visuales y permitiendo la interacción en situaciones donde no es posible leer texto. Estas interfaces '  
-         ' también impulsan tecnologías emergentes como los asistentes de voz inteligentes, haciendo que la tecnología ' 
-         ' sea más accesible e intuitiva para todos los usuarios')
+st.subheader("Baby Yoda")
+st.write("Grogu, mejor conocido por el internet como Baby Yoda, es un personaje de Star Wars presentado en la serie The Mandalorian,"
+"estrenada en Disney Plus en 2019 y que en 2023 presentó su tercera temporada. Desde entonces, este pequeño y tierno personaje"
+"se ha convertido en el objeto de obsesión y atención de los fanáticos del universo de Star Wars.")
            
 
 text = st.text_input("Ingrese el texto.")
