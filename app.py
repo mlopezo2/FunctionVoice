@@ -23,7 +23,7 @@ st.write("Grogu, mejor conocido por el internet como Baby Yoda, es un personaje 
 "se ha convertido en el objeto de obsesión y atención de los fanáticos del universo de Star Wars.")
            
 
-text = st.text_input("Ingrese el texto.")
+text = st.text_input("¿Desea escuchar la información? Copie y pegue el párrafo para ser leído.")
 
 tld="es"
 
